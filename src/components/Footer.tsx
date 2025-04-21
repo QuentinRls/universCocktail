@@ -24,7 +24,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="footer-description">
-              Explorez notre univers de cocktails galactiques et découvrez des saveurs venues des confins de l'espace.
+              Explorez notre univers de cocktails galactiques et découvrez des saveurs venues des confins de l&#39;espace.
             </p>
             <div className="footer-social">
               <a href="#" className="social-link">

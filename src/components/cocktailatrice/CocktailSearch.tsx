@@ -1,9 +1,7 @@
 // Composant de recherche de cocktails
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaSearch, FaGlassMartini, FaPlus, FaMinus } from 'react-icons/fa';
 import { Cocktail as CocktailType } from '@/services/cocktailService';
-import { Ingredient } from './types';
 
 interface CocktailSearchProps {
   allCocktails: CocktailType[];
@@ -38,16 +36,6 @@ const CocktailSearch = ({
             ing.toString().toLowerCase().includes(searchQuery.toLowerCase())
           ))
       );
-
-  // Variable d'animation
-  const itemVariants = {
-    hidden: { y: 10, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: { duration: 0.4 }
-    }
-  };
 
   return (
     <div className="card-galactic p-6">

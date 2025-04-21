@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import { getCocktailById, getCocktailsByCategory, addToFavorites, removeFromFavorites, isInFavorites, Cocktail } from '@/services/cocktailService';
 
+
 export default function CocktailDetailPage({ params }: { params: { id: string } }) {
   const [cocktail, setCocktail] = useState<Cocktail | null>(null);
   const [isFavorite, setIsFavorite] = useState(false);
@@ -53,10 +54,10 @@ export default function CocktailDetailPage({ params }: { params: { id: string } 
   };
 
   // Calcule la quantité en fonction du nombre de portions
-  const calculateQuantity = (ingredient: any) => {
+  const calculateQuantity = (ingredient: { quantity?: string | number }) => {
     if (!ingredient.quantity) return '';
-    const baseQuantity = parseFloat(ingredient.quantity);
-    if (isNaN(baseQuantity)) return ingredient.quantity;
+    const baseQuantity = typeof ingredient.quantity === 'string' ? parseFloat(ingredient.quantity) : ingredient.quantity;
+    if (isNaN(baseQuantity)) return ingredient.quantity?.toString() || '';
     return (baseQuantity * servings).toString();
   };
 
@@ -81,9 +82,9 @@ export default function CocktailDetailPage({ params }: { params: { id: string } 
         <main className="max-w-7xl mx-auto px-4 py-8">
           <div className="cosmic-border rounded-lg p-12 bg-background/30 backdrop-blur-sm text-center max-w-2xl mx-auto">
             <h1 className="text-3xl mb-4">Cocktail non trouvé</h1>
-            <p className="mb-8">Ce cocktail semble s'être évaporé dans l'espace...</p>
+            <p className="mb-8">Ce cocktail semble s&#39;être évaporé dans l&#39;espace...</p>
             <Link href="/" className="btn-galactic">
-              Retourner à l'accueil
+              Retourner à l&#39;accueil
             </Link>
           </div>
         </main>

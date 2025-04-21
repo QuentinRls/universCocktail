@@ -175,16 +175,6 @@ export default function SearchFilters({ onApplyFilters }: SearchFiltersProps) {
     );
   };
 
-  const handleMinDegreeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = parseInt(e.target.value);
-    setAlcoholDegree([value, alcoholDegree[1]]);
-  };
-
-  const handleMaxDegreeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = parseInt(e.target.value);
-    setAlcoholDegree([alcoholDegree[0], value]);
-  };
-
   const handleApply = () => {
     onApplyFilters({
       ingredients: selectedIngredients,
@@ -273,7 +263,7 @@ export default function SearchFilters({ onApplyFilters }: SearchFiltersProps) {
       
       {/* Filtres par degré d'alcool */}
       <div className="filter-section">
-        <h3 className="filter-section-title">Degré d'alcool</h3>
+        <h3 className="filter-section-title">Degré d&#39;alcool</h3>
         <div className="slider-values">
           <span>{alcoholDegree[0]}°</span>
           <span>{alcoholDegree[1]}°</span>

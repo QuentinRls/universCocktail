@@ -101,7 +101,7 @@ export default function FavorisPage() {
               </svg>
             </div>
             <h2 className="text-2xl mb-4">Aucune étoile dans votre galaxie</h2>
-            <p className="mb-8">Vous n'avez pas encore ajouté de cocktails à vos favoris. Explorez notre collection et ajoutez vos constellations préférées ici.</p>
+            <p className="mb-8">Vous n&apos;avez pas encore ajouté de cocktails à vos favoris. Explorez notre collection et ajoutez vos constellations préférées ici.</p>
             <Link href="/recherche" className="py-3 px-6 bg-primary hover:bg-primary-light text-white rounded-full transition-colors inline-block">
               Explorer les cocktails
             </Link>

@@ -41,11 +41,27 @@ const categoryColors: Record<string, string> = {
 export default function Home() {
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
-  const [categories, setCategories] = useState<any[]>([]);
-  const [featuredCocktails, setFeaturedCocktails] = useState<any[]>([]);
+  type Category = {
+    id: string;
+    name: string;
+    icon: JSX.Element;
+    color: string;
+  };
+  const [categories, setCategories] = useState<Category[]>([]);
+  type Cocktail = {
+    id: string;
+    name: string;
+    description: string;
+    imageUrl: string;
+    galaxyOrigin?: string;
+    // Ajoutez d'autres propriétés si nécessaire
+  };
+  const [featuredCocktails, setFeaturedCocktails] = useState<Cocktail[]>([]);
   
   useEffect(() => {
     setMounted(true);
+    if (mounted)
+        console.log("Component mounted");
     // Récupérer les catégories et les cocktails en vedette à partir du service
     const allCategories = getCategories();
     const featured = getFeaturedCocktails();
@@ -117,7 +133,7 @@ export default function Home() {
             transition={{ duration: 0.7 }}
           >
             <h1 className="hero-title">
-              Explorez l'<span className="hero-title-highlight-cyan">Univers</span> des <span className="hero-title-highlight-pink">Cocktails</span>
+              Explorez l{"\'"}<span className="hero-title-highlight-cyan">Univers</span> des <span className="hero-title-highlight-pink">Cocktails</span>
             </h1>
           </motion.div>
           
@@ -196,7 +212,7 @@ export default function Home() {
                   <FaGlassMartini className="feature-icon" />
                 </div>
                 <h3 className="feature-title">Classement par alcools</h3>
-                <p className="feature-description">Explorez les cocktails par type d'alcool et découvrez de nouvelles saveurs</p>
+                <p className="feature-description">Explorez les cocktails par type d{"\'"}alcool et découvrez de nouvelles saveurs</p>
               </div>
             </Link>
           </motion.div>

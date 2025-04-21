@@ -36,7 +36,8 @@ export default function RecherchePage() {
   const [showFilters, setShowFilters] = useState(false);
   const searchParams = useSearchParams();
   const router = useRouter();
-  
+  if (router)
+    console.log("continue");
   // Charger tous les cocktails au chargement de la page
   useEffect(() => {
     const cocktails = getCocktailsForCards();
@@ -195,7 +196,7 @@ export default function RecherchePage() {
             ) : (
               <div className="cosmic-border rounded-lg p-8 bg-background/40 backdrop-blur-sm text-center">
                 <h3 className="text-xl mb-3">Aucun cocktail trouvé dans cette dimension</h3>
-                <p>Essayez de modifier vos critères de recherche pour explorer d'autres galaxies de saveurs.</p>
+                <p>Essayez de modifier vos critères de recherche pour explorer d{"\'"}autres galaxies de saveurs.</p>
               </div>
             )}
           </div>

@@ -1,5 +1,5 @@
 // Fonctions de calcul et utilitaires pour la cocktailatrice
-import { Ingredient, SelectedCocktailWithQuantity, CocktailResult } from './types';
+import { SelectedCocktailWithQuantity, CocktailResult, IngredientSummary } from './types';
 import { unitConversions } from './priceUtils';
 
 // Fonction pour formater les plages de prix
@@ -167,13 +167,19 @@ export const convertQuantityForDownload = (quantity: number, unit: string): { qu
 };
 
 // Fonction pour générer le texte de la liste d'ingrédients pour le téléchargement
-export const generateIngredientsListText = (ingredientsSummary: any[]): string => {
+
+export const generateIngredientsListText = (ingredientsSummary: IngredientSummary[]): string => {
   if (ingredientsSummary.length === 0) return "Aucun ingrédient sélectionné";
 
   const lines = ["Liste des ingrédients:", "========================"];
   
   // Catégories d'ingrédients
-  const categories: Record<string, { title: string, ingredients: any[] }> = {
+  type IngredientWithConversion = IngredientSummary & {
+    quantityInMl: number;
+    convertedQuantity: { quantity: number, unit: string };
+  };
+
+  const categories: Record<string, { title: string, ingredients: IngredientWithConversion[] }> = {
     strongAlcohol: { title: "ALCOOLS FORTS", ingredients: [] },
     liqueurs: { title: "LIQUEURS ET VINS", ingredients: [] },
     juices: { title: "JUS ET SODAS", ingredients: [] },

@@ -308,28 +308,41 @@ export const unitConversions: Record<string, number> = {
 };
 
 // Fonction pour convertir un ingrédient JSON en ingrédient formaté pour la cocktailatrice
-export const convertIngredientToCocktailatrice = (ingredient: any): Ingredient => {
+interface RawIngredient {
+  name: string;
+  quantity?: string | number;
+  unit?: string;
+}
+
+interface CocktailatriceIngredient extends Ingredient {
+  id: string;
+  price: number;
+  calories: number;
+  isAlcoholic: boolean;
+}
+
+export const convertIngredientToCocktailatrice = (ingredient: string | RawIngredient): CocktailatriceIngredient => {
   console.log('convertIngredientToCocktailatrice', ingredient);
-  let name = typeof ingredient === 'string' ? ingredient : ingredient.name;
-  let quantity = 10;
-  let unit = '';
+  const name: string = typeof ingredient === 'string' ? ingredient : ingredient.name;
+  let quantity: number = 10;
+  let unit: string = '';
   if (typeof ingredient !== 'string' && ingredient.quantity) {
     // Convertir la quantité en nombre
-    quantity = parseFloat(ingredient.quantity) || 0;
+    quantity = parseFloat(ingredient.quantity as string) || 0;
     unit = ingredient.unit || '';
   }
   
   // Estimer si l'ingrédient est alcoolisé en fonction de son nom
-  const alcoholicIngredients = ['rhum', 'vodka', 'gin', 'whisky', 'whiskey', 'tequila', 'cognac', 'brandy', 
+  const alcoholicIngredients: string[] = ['rhum', 'vodka', 'gin', 'whisky', 'whiskey', 'tequila', 'cognac', 'brandy', 
                                'vermouth', 'liqueur', 'kirsch', 'triple sec', 'cointreau', 'campari', 
                                'aperol', 'spiritueux', 'bitter', 'alcool', 'chartreuse', 'porto', 'vin'];
-  const isAlcoholic = alcoholicIngredients.some(alcoholic => name.toLowerCase().includes(alcoholic));
+  const isAlcoholic: boolean = alcoholicIngredients.some(alcoholic => name.toLowerCase().includes(alcoholic));
   
   // Déterminer le prix en fonction du nom de l'ingrédient
-  const price = findIngredientPrice(name);
+  const price: number = findIngredientPrice(name);
   
   // Calculer les calories pour cet ingrédient
-  const calories = findIngredientCalories(name, quantity, unit);
+  const calories: number = findIngredientCalories(name, quantity, unit);
   console.log('Calories:', calories, 'pour', quantity, unit, 'de', name);
   return {
     id: uuidv4(),

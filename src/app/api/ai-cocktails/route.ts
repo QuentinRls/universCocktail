@@ -130,10 +130,9 @@ const budgetEleve =
   const prefereTequila = prompt.toLowerCase().includes('tequila');
   const prefereGin = prompt.toLowerCase().includes('gin');
   const prefereRhum = prompt.toLowerCase().includes('rhum');
-  const prefereMix = prompt.toLowerCase().includes('mix');
   
   // Rechercher des cocktails en fonction des préférences
-  let cocktailsRecommandes: CocktailSuggestion[] = [];
+  const cocktailsRecommandes: CocktailSuggestion[] = [];
   
   // Pour un dîner, privilégier des cocktails classiques
   if (isSoireeDiner) {

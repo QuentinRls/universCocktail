@@ -40,3 +40,13 @@ export interface SelectedCocktailWithQuantity {
   totalPrice: number;
   totalCalories?: number; // Ajout des calories totales (optionnel)
 }
+
+// (existing content of types.ts)
+
+export type IngredientSummary = {
+  name: string;
+  quantity: number;
+  unit: string;
+  price: number;
+  calories: number;
+};

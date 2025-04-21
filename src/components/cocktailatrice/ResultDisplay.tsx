@@ -1,5 +1,4 @@
 // Composant d'affichage des résultats
-import { motion } from 'framer-motion';
 import { FaShoppingBasket, FaFireAlt, FaWineGlassAlt, FaCoins } from 'react-icons/fa';
 import { CocktailResult } from './types';
 import '@/styles/components/cocktailatrice/ResultDisplay.css';
@@ -136,7 +135,7 @@ const ResultDisplay = ({
                       
                       {/* Pourcentage d'alcool */}
                       <div className="card-galactic info-card">
-                        <div className="info-header">Pourcentage d'alcool (approx.)</div>
+                        <div className="info-header">Pourcentage d&#39;alcool (approx.)</div>
                         <div className="info-value-standard">
                           {result.alcoholicPercentage}%
                         </div>
@@ -155,7 +154,7 @@ const ResultDisplay = ({
           </div>
           <h2 className="empty-title">Prêt à calculer</h2>
           <p className="empty-text">
-            Recherchez et ajoutez vos cocktails préférés à votre sélection, puis cliquez sur "Calculer le total" pour voir les résultats.
+            Recherchez et ajoutez vos cocktails préférés à votre sélection, puis cliquez sur &#34;Calculer le total&#34; pour voir les résultats.
           </p>
         </div>
       )}

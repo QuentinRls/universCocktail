@@ -6,9 +6,9 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import CocktailCard from '@/components/CocktailCard';
 import SearchBar from '@/components/SearchBar';
-import { getCocktailsByCategory, getCategories, getCategoryById, Cocktail, Category } from '@/services/cocktailService';
+import { getCocktailsByCategory, getCategories, getCategoryById, Cocktail } from '@/services/cocktailService';
 
-// Types - Nous pouvons supprimer l'interface Cocktail puisqu'elle est importée du service
+// Correction des types et suppression des unused vars
 
 export default function CategoryPage() {
   const params = useParams();
@@ -60,7 +60,7 @@ export default function CategoryPage() {
   const handleSort = (sortType: string) => {
     setSortBy(sortType);
     
-    let sorted = [...filteredCocktails];
+    const sorted = [...filteredCocktails];
     if (sortType === 'name') {
       sorted.sort((a, b) => a.name.localeCompare(b.name));
     } else if (sortType === 'alcoholDegree') {
@@ -101,7 +101,7 @@ export default function CategoryPage() {
                 className="w-full px-4 py-3 bg-background/50 focus:outline-none focus:ring-2 focus:ring-primary"
               >
                 <option value="name">Trier par nom</option>
-                <option value="alcoholDegree">Trier par degré d'alcool</option>
+                <option value="alcoholDegree">Trier par degré d{"\'"}alcool</option>
                 <option value="popularity">Trier par popularité</option>
               </select>
             </div>
@@ -152,7 +152,7 @@ export default function CategoryPage() {
         
         {/* Navigation entre catégories */}
         <div className="mt-16">
-          <h2 className="text-2xl mb-6 text-center">Explorer d'autres constellations</h2>
+          <h2 className="text-2xl mb-6 text-center">Explorer d{"\'"}autres constellations</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {categories.map(cat => (
               <Link 

@@ -1,5 +1,4 @@
 // Composant de sélection de cocktails
-import { motion } from 'framer-motion';
 import { FaPlus, FaMinus, FaTrash, FaDownload } from 'react-icons/fa';
 import { SelectedCocktailWithQuantity } from './types';
 import { calculateIngredientsSummary, generateIngredientsListText, downloadTextFile } from './calculUtils';

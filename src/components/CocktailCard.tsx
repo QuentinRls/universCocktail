@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FaStar, FaGlassMartini } from 'react-icons/fa';
-import { Cocktail } from '@/services/cocktailService';
 import '@/styles/components/CocktailCard.css';
 
 interface CocktailCardProps {
@@ -53,7 +52,7 @@ export default function CocktailCard({
           {alcoholDegree !== undefined && (
             <span className="card-alcohol-degree">
               <FaGlassMartini className="text-space-cyan icon-size-small" />
-              {alcoholDegree}° d'alcool
+              {alcoholDegree}° d&#39;alcool
             </span>
           )}
           
