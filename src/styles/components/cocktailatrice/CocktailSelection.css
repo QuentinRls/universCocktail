@@ -1,0 +1,187 @@
+/* Styles for CocktailSelection component */
+.selection-container {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.2);
+}
+
+.selection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.selection-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-family: var(--font-title);
+  color: var(--cyan, #2dd4bf);
+}
+
+.reset-button {
+  font-size: 0.875rem;
+  color: var(--pink, #ec4899);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: color 0.3s;
+}
+
+.reset-button:hover {
+  color: rgba(var(--pink-rgb, 236, 72, 153), 0.8);
+}
+
+.selection-content {
+  margin-bottom: 1.5rem;
+}
+
+.ingredients-summary {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: rgba(var(--nebula-rgb, 76, 29, 149), 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.ingredients-title {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: var(--font-title);
+  color: var(--pink, #ec4899);
+  margin-bottom: 0.75rem;
+}
+
+.ingredients-list {
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.1);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ingredient-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.ingredient-name {
+  color: var(--star, #f59e0b);
+}
+
+.ingredient-quantity {
+  color: var(--cyan, #2dd4bf);
+  font-weight: 500;
+}
+
+.selected-cocktails-title {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: var(--font-title);
+  color: var(--pink, #ec4899);
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.selected-cocktails-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.selected-cocktail-item {
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  background-color: rgba(var(--dark-rgb, 30, 41, 59), 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cocktail-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cocktail-name {
+  font-weight: 500;
+  color: var(--star, #f59e0b);
+}
+
+.cocktail-quantity {
+  font-size: 0.875rem;
+  color: white;
+}
+
+.cocktail-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cocktail-price {
+  color: var(--cyan, #2dd4bf);
+  font-weight: 500;
+}
+
+.action-button {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 9999px;
+  background-color: rgba(var(--pink-rgb, 236, 72, 153), 0.2);
+  color: var(--pink, #ec4899);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: rgba(var(--pink-rgb, 236, 72, 153), 0.4);
+}
+
+.empty-selection {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: white;
+  border-radius: 0.5rem;
+  background-color: rgba(var(--dark-rgb, 30, 41, 59), 0.5);
+  margin-bottom: 1.5rem;
+}
+
+.icon-xs {
+  font-size: 0.75rem;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, rgba(var(--purple-rgb, 139, 92, 246), 0.3), rgba(var(--cyan-rgb, 45, 212, 191), 0.3));
+  color: var(--cyan, #2dd4bf);
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  width: 100%;
+  border: 1px solid rgba(var(--cyan-rgb, 45, 212, 191), 0.3);
+}
+
+.download-button:hover {
+  background: linear-gradient(135deg, rgba(var(--purple-rgb, 139, 92, 246), 0.5), rgba(var(--cyan-rgb, 45, 212, 191), 0.5));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(var(--cyan-rgb, 45, 212, 191), 0.2);
+}
+
+.download-button:active {
+  transform: translateY(0);
+}

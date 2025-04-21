@@ -1,0 +1,204 @@
+/* Styles for CocktailSearch component */
+.cocktail-search-container {
+  padding: 1.5rem;
+}
+
+.search-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: var(--font-title);
+  color: var(--cyan, #2dd4bf);
+  margin-bottom: 1.5rem;
+}
+
+.search-field-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+  background-color: rgba(var(--dark-rgb, 30, 41, 59), 0.7);
+  border: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.3);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  padding-left: 2.5rem;
+  color: var(--star, #f59e0b);
+}
+
+.search-input:focus {
+  border-color: rgba(var(--purple-rgb, 139, 92, 246), 0.8);
+  box-shadow: 0 0 0 2px rgba(var(--purple-rgb, 139, 92, 246), 0.3);
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(var(--purple-rgb, 139, 92, 246), 0.5);
+}
+
+.cocktail-list {
+  margin-bottom: 1.5rem;
+  max-height: 15rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+
+.cocktail-item {
+  width: 100%;
+  padding: 0.75rem;  /* p-3 de Tailwind */
+  text-align: left;
+  border-radius: 0.5rem; /* rounded-lg de Tailwind */
+  transition: all 0.3s; /* transition-all duration-300 de Tailwind */
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;  /* gap-3 de Tailwind */
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.cocktail-item-active {
+  background-color: rgba(var(--nebula-rgb, 76, 29, 149), 0.7);
+  border: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.5);
+  color: var(--star, #f59e0b);
+}
+
+.cocktail-item-inactive {
+  background-color: rgba(var(--dark-rgb, 30, 41, 59), 0.7);
+  border: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.2);
+  color: rgba(var(--star-rgb, 245, 158, 11), 0.8);
+}
+
+.cocktail-item-inactive:hover {
+  background-color: rgba(var(--nebula-rgb, 76, 29, 149), 0.3);
+  border-color: rgba(var(--purple-rgb, 139, 92, 246), 0.3);
+}
+
+.cocktail-icon-container {
+  width: 2rem;  /* Ajusté à w-8 de Tailwind */
+  height: 2rem;  /* Ajusté à h-8 de Tailwind */
+  border-radius: 9999px;
+  background-image: linear-gradient(to bottom right, var(--purple, #8b5cf6), var(--blue, #3b82f6));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cocktail-icon {
+  color: var(--star, #f59e0b);
+  font-size: 0.75rem;
+}
+
+.cocktail-name-container {
+  overflow: hidden;
+}
+
+.cocktail-name {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.empty-results {
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+}
+
+.selected-cocktail {
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: rgba(var(--nebula-rgb, 76, 29, 149), 0.1);
+}
+
+.selected-cocktail-title {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: var(--font-title);
+  color: var(--cyan, #2dd4bf);
+  margin-bottom: 0.75rem;
+}
+
+.selected-cocktail-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.selected-cocktail-name {
+  color: var(--star, #f59e0b);
+  font-weight: 500;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-btn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.quantity-btn-active {
+  background-color: rgba(var(--purple-rgb, 139, 92, 246), 0.5);
+  color: var(--star, #f59e0b);
+}
+
+.quantity-btn-active:hover {
+  background-color: rgba(var(--purple-rgb, 139, 92, 246), 0.7);
+}
+
+.quantity-btn-disabled {
+  background-color: rgba(var(--purple-rgb, 139, 92, 246), 0.3);
+  color: rgba(var(--star-rgb, 245, 158, 11), 0.5);
+  cursor: not-allowed;
+}
+
+.quantity-display {
+  width: 2.5rem;
+  text-align: center;
+  margin: 0 0.25rem;
+}
+
+.quantity-text {
+  color: var(--star, #f59e0b);
+}
+
+.add-button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to right, var(--purple, #8b5cf6), var(--blue, #3b82f6));
+  color: white;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.add-button:hover {
+  filter: brightness(1.1);
+}
+
+.icon-xs {
+  font-size: 0.75rem;
+}

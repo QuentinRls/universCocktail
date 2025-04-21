@@ -1,0 +1,190 @@
+/* Styles pour la page de Création Sur Mesure */
+.creation-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.form-card {
+  background-color: rgba(var(--background-rgb), 0.7);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, var(--primary), var(--primary-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.page-description {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgba(var(--text-rgb), 0.9);
+  font-size: 1.1rem;
+}
+
+/* Indicateur d'étapes */
+.step-indicator {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.step-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 8px;
+  background-color: rgba(var(--primary-rgb), 0.3);
+  transition: all 0.3s ease;
+}
+
+.step-dot.active {
+  background-color: var(--primary);
+  transform: scale(1.3);
+  box-shadow: 0 0 10px rgba(var(--primary-rgb), 0.7);
+}
+
+.step-dot.completed {
+  background-color: var(--primary-light);
+}
+
+/* Contenu de l'étape */
+.step-content {
+  margin-bottom: 2rem;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.option-button {
+  padding: 1rem;
+  background-color: rgba(var(--background-rgb), 0.6);
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  font-weight: 500;
+}
+
+.option-button:hover {
+  background-color: rgba(var(--primary-rgb), 0.2);
+}
+
+.option-button.active {
+  background-color: var(--primary);
+  color: white;
+  box-shadow: 0 0 15px rgba(var(--primary-rgb), 0.6);
+}
+
+/* Navigation du formulaire */
+.form-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.nav-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.back-button {
+  background-color: transparent;
+  border: 1px solid rgba(var(--text-rgb), 0.3);
+}
+
+.back-button:hover {
+  background-color: rgba(var(--text-rgb), 0.1);
+}
+
+.next-button, .submit-button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.next-button:hover, .submit-button:hover {
+  background-color: var(--primary-light);
+  box-shadow: 0 0 10px rgba(var(--primary-rgb), 0.5);
+}
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Message d'erreur */
+.error-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 0, 0, 0.1);
+  color: rgb(255, 100, 100);
+  text-align: center;
+}
+
+/* Effets cosmiques additionnels */
+.form-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(var(--primary-rgb), 0.1) 0%,
+    transparent 70%
+  );
+  z-index: -1;
+  animation: pulse 15s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-10%, -10%) rotate(0deg);
+  }
+  100% {
+    transform: translate(10%, 10%) rotate(360deg);
+  }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-button {
+    width: 100%;
+  }
+}

@@ -1,15 +1,31 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0e17;
+  --foreground: #e0e7ff;
+  --primary: #7e22ce;
+  --primary-light: #a855f7;
+  --secondary: #2563eb;
+  --accent: #10b981;
+  --nebula: #c026d3;
+  --star: #ffffff;
+  --cosmic-dust: #6d28d9;
+  --meteor: #ef4444;
+  --planet-ring: #f59e0b;
+  --space-border: rgba(126, 34, 206, 0.5);
+  --foreground-rgb: 248, 245, 255;
+  --background-start-rgb: 10, 10, 26;
+  --background-end-rgb: 30, 10, 58;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-display: 'Orbitron', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +35,211 @@
   }
 }
 
+@layer utilities {
+  .star-bg {
+    background-image: 
+      radial-gradient(circle at 80% 70%, var(--cosmic-dust), transparent 25%),
+      radial-gradient(white, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 50px 50px;
+    background-position: 0 0, 0 0, 0 0;
+  }
+  
+  .cosmic-gradient {
+    background: linear-gradient(135deg, var(--cosmic-dust), var(--primary), var(--nebula));
+  }
+  
+  .glow {
+    box-shadow: 0 0 15px rgba(126, 34, 206, 0.6);
+  }
+  
+  .cosmic-border {
+    border: 1px solid var(--space-border);
+    box-shadow: 0 0 10px rgba(126, 34, 206, 0.3), inset 0 0 8px rgba(168, 85, 247, 0.2);
+  }
+
+  .stellar-shadow {
+    text-shadow: 0 0 10px rgba(126, 34, 206, 0.5);
+  }
+  
+  .nebula-pulse {
+    animation: cosmic-flow 3s ease-in-out infinite, twinkle 2s ease-in-out infinite alternate;
+  }
+  
+  .orbit-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .orbit-hover:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 5px 20px rgba(126, 34, 206, 0.4), 0 0 15px rgba(168, 85, 247, 0.3);
+  }
+  
+  /* Classe pour définir une largeur de base de 230px */
+  .w-base {
+    width: 230px !important;
+  }
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    fixed;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(1px 1px at 40px 60px, rgba(25, 210, 229, 0.9), rgba(25, 210, 229, 0)),
+    radial-gradient(1.5px 1.5px at 150px 120px, rgba(229, 44, 157, 0.9), rgba(229, 44, 157, 0)),
+    radial-gradient(1px 1px at 200px 300px, rgba(107, 29, 206, 0.9), rgba(107, 29, 206, 0)),
+    radial-gradient(2px 2px at 120px 400px, rgba(25, 210, 229, 0.9), rgba(25, 210, 229, 0)),
+    radial-gradient(1.5px 1.5px at 350px 250px, rgba(248, 245, 255, 0.9), rgba(248, 245, 255, 0)),
+    radial-gradient(1px 1px at 400px 100px, rgba(229, 44, 157, 0.9), rgba(229, 44, 157, 0));
+  background-size: 500px 500px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: -1;
+  animation: twinkle 8s ease-in-out infinite alternate;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
+  @apply text-space-star;
+}
+
+h1 {
+  @apply bg-gradient-to-r from-space-purple to-space-cyan bg-clip-text text-transparent;
+}
+
+/* Animation pour le scintillement des étoiles */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.5; }
+}
+
+/* Animation pour les effets de passage cosmique */
+@keyframes cosmic-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Styles pour les composants interactifs */
+button, 
+.btn {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+button:before,
+.btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(107, 29, 206, 0.2), transparent);
+  transition: all 0.5s ease;
+}
+
+button:hover:before,
+.btn:hover:before {
+  left: 100%;
+}
+
+input, select, textarea {
+  @apply bg-space-dark/70 border border-space-purple/30 text-space-star transition-all duration-300;
+}
+
+input:focus, select:focus, textarea:focus {
+  @apply border-space-purple/80 ring-2 ring-space-purple/30 outline-none;
+}
+
+/* Style pour les scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-space-dark/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-space-purple rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-space-blue;
+}
+
+/* Effet de chargement cosmique */
+.cosmic-loader {
+  @apply relative w-14 h-14;
+}
+
+.cosmic-loader:before,
+.cosmic-loader:after {
+  content: '';
+  @apply absolute rounded-full;
+  animation: cosmic-flow 2s linear infinite;
+  @apply inset-0;
+}
+
+.cosmic-loader:before {
+  @apply bg-gradient-to-r from-space-purple to-space-pink;
+  animation: twinkle 1.5s ease-in-out infinite alternate;
+}
+
+.cosmic-loader:after {
+  @apply bg-space-dark;
+  margin: 5px;
+  animation: twinkle 2s ease-in-out infinite alternate-reverse;
+}
+
+/* Utilities étendues */
+@layer utilities {
+  .stellar-shadow {
+    text-shadow: 0 0 10px rgba(107, 29, 206, 0.5);
+  }
+  
+  .orbit-hover {
+    @apply transition-all duration-300;
+  }
+  
+  .orbit-hover:hover {
+    @apply -translate-y-1 scale-[1.02] shadow-lg shadow-space-purple/40;
+  }
+}
+
+@layer components {
+  .card-galactic {
+    @apply bg-gradient-to-br from-space-nebula/80 to-space-dark/90 backdrop-blur-md border border-space-purple/30 rounded-lg overflow-hidden shadow-lg hover:shadow-space-purple/20 transition-all duration-300;
+  }
+  
+  .btn-galactic {
+    @apply px-6 py-2 bg-gradient-to-r from-space-purple to-space-blue text-white font-medium rounded-md hover:brightness-110 transition-all shadow-md hover:shadow-space-purple/50;
+  }
+  
+  .glow {
+    @apply relative;
+  }
+  
+  .glow::after {
+    @apply content-[''] absolute inset-0 -z-10 bg-gradient-to-r from-space-purple/10 to-space-cyan/10 blur-xl opacity-75;
+  }
 }

@@ -1,0 +1,78 @@
+/* Styles for GalacticBackground component */
+.background-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.background-base {
+  position: fixed;
+  inset: 0;
+  background-image: linear-gradient(to bottom, var(--dark, #1e293b), #4c1b52, #4c1d95);
+  z-index: -20;
+}
+
+.nebula-container {
+  position: fixed;
+  inset: 0;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: -15;
+}
+
+.nebula-purple {
+  position: absolute;
+  background: radial-gradient(circle, rgba(var(--purple-rgb, 139, 92, 246), 0.3), transparent, transparent);
+  border-radius: 9999px;
+  filter: blur(24px);
+  top: 10%;
+  left: 20%;
+  width: 40%;
+  height: 40%;
+}
+
+.nebula-cyan {
+  position: absolute;
+  background: radial-gradient(circle, rgba(var(--cyan-rgb, 45, 212, 191), 0.2), transparent, transparent);
+  border-radius: 9999px;
+  filter: blur(24px);
+  top: 30%;
+  left: 60%;
+  width: 60%;
+  height: 60%;
+}
+
+.nebula-pink {
+  position: absolute;
+  background: radial-gradient(circle, rgba(var(--pink-rgb, 236, 72, 153), 0.2), transparent, transparent);
+  border-radius: 9999px;
+  filter: blur(24px);
+  top: 70%;
+  left: 30%;
+  width: 50%;
+  height: 50%;
+}
+
+.star {
+  position: absolute;
+  border-radius: 9999px;
+  z-index: -10;
+}
+
+.shooting-star-container {
+  position: fixed;
+  z-index: -5;
+}
+
+.shooting-star {
+  position: absolute;
+  height: 1px;
+  border-radius: 9999px;
+  background-color: var(--star, #f59e0b);
+  transform-origin: left center;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 10;
+}

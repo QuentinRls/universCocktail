@@ -1,0 +1,1262 @@
+[
+  {
+    "ingredient": "Woodford Reserve Bourbon",
+    "volume_ml": 700,
+    "price_eur": 29.83,
+    "eur_per_10ml": 0.43,
+    "eur_per_litre": 42.61,
+    "source": "turn1search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Bulleit Bourbon",
+    "volume_ml": 700,
+    "price_eur": 28.55,
+    "eur_per_10ml": 0.41,
+    "eur_per_litre": 40.79,
+    "source": "turn4search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jim Beam Kentucky Straight Bourbon",
+    "volume_ml": 700,
+    "price_eur": 18.79,
+    "eur_per_10ml": 0.27,
+    "eur_per_litre": 26.84,
+    "source": "turn5search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Quarter Horse Bourbon",
+    "volume_ml": 700,
+    "price_eur": 13.35,
+    "eur_per_10ml": 0.19,
+    "eur_per_litre": 19.07,
+    "source": "turn6search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jack Daniel's Single Barrel",
+    "volume_ml": 700,
+    "price_eur": 35.79,
+    "eur_per_10ml": 0.51,
+    "eur_per_litre": 51.13,
+    "source": "turn5search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Monkey Shoulder Blended Malt",
+    "volume_ml": 700,
+    "price_eur": 26.05,
+    "eur_per_10ml": 0.37,
+    "eur_per_litre": 37.21,
+    "source": "turn7search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jose Cuervo Silver Tradicional",
+    "volume_ml": 700,
+    "price_eur": 23.75,
+    "eur_per_10ml": 0.34,
+    "eur_per_litre": 33.93,
+    "source": "turn19search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Havana Club 7 Años",
+    "volume_ml": 700,
+    "price_eur": 26.25,
+    "eur_per_10ml": 0.38,
+    "eur_per_litre": 37.5,
+    "source": "turn24search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Saint‑James Royal Ambré",
+    "volume_ml": 700,
+    "price_eur": 14.9,
+    "eur_per_10ml": 0.21,
+    "eur_per_litre": 21.29,
+    "source": "turn11search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Damoiseau Rhum Blanc 50°",
+    "volume_ml": 1000,
+    "price_eur": 19.65,
+    "eur_per_10ml": 0.2,
+    "eur_per_litre": 19.65,
+    "source": "turn12search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Campari Bitter 25°",
+    "volume_ml": 700,
+    "price_eur": 17.35,
+    "eur_per_10ml": 0.25,
+    "eur_per_litre": 24.79,
+    "source": "turn10search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Aperol",
+    "volume_ml": 700,
+    "price_eur": 12.49,
+    "eur_per_10ml": 0.18,
+    "eur_per_litre": 17.84,
+    "source": "turn10search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Tanqueray London Dry Gin",
+    "volume_ml": 700,
+    "price_eur": 22.09,
+    "eur_per_10ml": 0.32,
+    "eur_per_litre": 31.56,
+    "source": "turn9search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Grey Goose Vodka",
+    "volume_ml": 700,
+    "price_eur": 39.9,
+    "eur_per_10ml": 0.57,
+    "eur_per_litre": 57.0,
+    "source": "turn8search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Poliakov Vodka",
+    "volume_ml": 700,
+    "price_eur": 11.55,
+    "eur_per_10ml": 0.17,
+    "eur_per_litre": 16.5,
+    "source": "turn21search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Żubrówka Vodka",
+    "volume_ml": 700,
+    "price_eur": 17.49,
+    "eur_per_10ml": 0.25,
+    "eur_per_litre": 24.99,
+    "source": "turn22search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sobieski Vodka",
+    "volume_ml": 700,
+    "price_eur": 11.99,
+    "eur_per_10ml": 0.17,
+    "eur_per_litre": 17.13,
+    "source": "turn23search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Bombay Sapphire Gin",
+    "volume_ml": 700,
+    "price_eur": 23.95,
+    "eur_per_10ml": 0.34,
+    "eur_per_litre": 34.21,
+    "source": "turn26search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Hendrick's Grand Cabaret Gin",
+    "volume_ml": 700,
+    "price_eur": 40.09,
+    "eur_per_10ml": 0.57,
+    "eur_per_litre": 57.27,
+    "source": "turn27search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Don Julio Blanco Tequila",
+    "volume_ml": 700,
+    "price_eur": 49.0,
+    "eur_per_10ml": 0.7,
+    "eur_per_litre": 70.0,
+    "source": "turn30search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Gin Bombay Sapphire",
+    "volume_ml": 700,
+    "price_eur": 23.95,
+    "eur_per_10ml": 0.342,
+    "eur_per_litre": 34.21,
+    "source": "turn2view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Vodka Absolut",
+    "volume_ml": 700,
+    "price_eur": 19.09,
+    "eur_per_10ml": 0.273,
+    "eur_per_litre": 27.27,
+    "source": "turn4view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Rhum Bacardi Carta Blanca",
+    "volume_ml": 700,
+    "price_eur": 14.12,
+    "eur_per_10ml": 0.202,
+    "eur_per_litre": 20.17,
+    "source": "turn5view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Rhum Havana Club 3 ans",
+    "volume_ml": 700,
+    "price_eur": 16.55,
+    "eur_per_10ml": 0.236,
+    "eur_per_litre": 23.64,
+    "source": "turn6view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Rhum épicé Captain Morgan Spiced Gold",
+    "volume_ml": 700,
+    "price_eur": 14.15,
+    "eur_per_10ml": 0.202,
+    "eur_per_litre": 20.21,
+    "source": "turn0search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Whiskey irlandais Jameson",
+    "volume_ml": 700,
+    "price_eur": 21.75,
+    "eur_per_10ml": 0.311,
+    "eur_per_litre": 31.07,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Whiskey Jack Daniel's Old No.7",
+    "volume_ml": 700,
+    "price_eur": 22.35,
+    "eur_per_10ml": 0.319,
+    "eur_per_litre": 31.93,
+    "source": "turn8view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Cognac Hennessy VS (alternative)",
+    "volume_ml": 700,
+    "price_eur": 41.05,
+    "eur_per_10ml": 0.586,
+    "eur_per_litre": 58.64,
+    "source": "turn9view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Cachaça Aguacana",
+    "volume_ml": 700,
+    "price_eur": 15.09,
+    "eur_per_10ml": 0.216,
+    "eur_per_litre": 21.56,
+    "source": "turn11view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Gin Gordon's London Dry",
+    "volume_ml": 700,
+    "price_eur": 15.15,
+    "eur_per_10ml": 0.216,
+    "eur_per_litre": 21.64,
+    "source": "turn15view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Woodford Reserve Bourbon",
+    "volume_ml": 700,
+    "price_eur": 30.1,
+    "eur_per_10ml": 0.43,
+    "eur_per_litre": 43.0,
+    "source": "turn3view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Four Roses Bourbon",
+    "volume_ml": 700,
+    "price_eur": 21.15,
+    "eur_per_10ml": 0.302,
+    "eur_per_litre": 30.21,
+    "source": "turn6view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jim Beam Kentucky Straight",
+    "volume_ml": 700,
+    "price_eur": 18.79,
+    "eur_per_10ml": 0.268,
+    "eur_per_litre": 26.84,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Bulleit Bourbon 45%",
+    "volume_ml": 700,
+    "price_eur": 28.55,
+    "eur_per_10ml": 0.408,
+    "eur_per_litre": 40.79,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Quarter Horse Bourbon",
+    "volume_ml": 700,
+    "price_eur": 13.35,
+    "eur_per_10ml": 0.191,
+    "eur_per_litre": 19.07,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Old Virginia Bourbon 6 ans",
+    "volume_ml": 700,
+    "price_eur": 17.35,
+    "eur_per_10ml": 0.248,
+    "eur_per_litre": 24.79,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Gentleman Jack",
+    "volume_ml": 700,
+    "price_eur": 30.45,
+    "eur_per_10ml": 0.435,
+    "eur_per_litre": 43.5,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Whisky single malt JURA red wine",
+    "volume_ml": 700,
+    "price_eur": 29.54,
+    "eur_per_10ml": 0.422,
+    "eur_per_litre": 42.2,
+    "source": "turn4view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sir Edward's Smoky Scotch",
+    "volume_ml": 700,
+    "price_eur": 15.15,
+    "eur_per_10ml": 0.216,
+    "eur_per_litre": 21.64,
+    "source": "turn4view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jack Daniel's Single Barrel",
+    "volume_ml": 700,
+    "price_eur": 35.79,
+    "eur_per_10ml": 0.511,
+    "eur_per_litre": 51.13,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Woodford Reserve Bourbon",
+    "volume_ml": 700,
+    "price_eur": 30.1,
+    "eur_per_10ml": 0.43,
+    "eur_per_litre": 43.0,
+    "source": "turn3view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Four Roses Bourbon",
+    "volume_ml": 700,
+    "price_eur": 21.15,
+    "eur_per_10ml": 0.302,
+    "eur_per_litre": 30.21,
+    "source": "turn6view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jim Beam Kentucky Straight",
+    "volume_ml": 700,
+    "price_eur": 18.79,
+    "eur_per_10ml": 0.268,
+    "eur_per_litre": 26.84,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Bulleit Bourbon 45%",
+    "volume_ml": 700,
+    "price_eur": 28.55,
+    "eur_per_10ml": 0.408,
+    "eur_per_litre": 40.79,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Quarter Horse Bourbon",
+    "volume_ml": 700,
+    "price_eur": 13.35,
+    "eur_per_10ml": 0.191,
+    "eur_per_litre": 19.07,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Old Virginia Bourbon 6 ans",
+    "volume_ml": 700,
+    "price_eur": 17.35,
+    "eur_per_10ml": 0.248,
+    "eur_per_litre": 24.79,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Gentleman Jack",
+    "volume_ml": 700,
+    "price_eur": 30.45,
+    "eur_per_10ml": 0.435,
+    "eur_per_litre": 43.5,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Whisky single malt JURA red wine",
+    "volume_ml": 700,
+    "price_eur": 29.54,
+    "eur_per_10ml": 0.422,
+    "eur_per_litre": 42.2,
+    "source": "turn4view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sir Edward's Smoky Scotch",
+    "volume_ml": 700,
+    "price_eur": 15.15,
+    "eur_per_10ml": 0.216,
+    "eur_per_litre": 21.64,
+    "source": "turn4view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jack Daniel's Single Barrel",
+    "volume_ml": 700,
+    "price_eur": 35.79,
+    "eur_per_10ml": 0.511,
+    "eur_per_litre": 51.13,
+    "source": "turn7view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Tropicana Pur Jus Orange",
+    "volume_ml": 1000,
+    "price_eur": 2.59,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 2.59,
+    "source": "turn1view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Tropicana Ananas & Citron Vert",
+    "volume_ml": 900,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 3.28,
+    "source": "turn4view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Ocean Spray Cranberry",
+    "volume_ml": 1000,
+    "price_eur": 2.35,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 2.35,
+    "source": "turn5view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "lemon juice",
+    "volume_ml": 1000,
+    "price_eur": 1.99,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 1.99,
+    "source": "turn0search3",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Granini Jus Tomate",
+    "volume_ml": 250,
+    "price_eur": 1.15,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.6,
+    "source": "turn0search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Schweppes Indian Tonic",
+    "volume_ml": 1500,
+    "price_eur": 2.0,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 1.33,
+    "source": "turn6view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Carrefour Sensation Ginger Ale",
+    "volume_ml": 1000,
+    "price_eur": 0.98,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 0.98,
+    "source": "turn0search6",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Fever Tree Ginger Beer (4x20cl)",
+    "volume_ml": 800,
+    "price_eur": 4.63,
+    "eur_per_10ml": 0.06,
+    "eur_per_litre": 5.79,
+    "source": "turn0search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Perrier Eau Gazeuse",
+    "volume_ml": 1000,
+    "price_eur": 0.68,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 0.68,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Carrefour Classic Cola",
+    "volume_ml": 1500,
+    "price_eur": 1.24,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 0.83,
+    "source": "turn0search9",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Grenadine MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Sucre de Canne MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Orgeat MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn4search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Framboise MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn1search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Cassis MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn8search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Passion MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn4search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Violette MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn1search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Caramel MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn1search3",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Ananas MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn4search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Vanille MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn11search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Coco MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn11search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Pêche MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn11search6",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Mûre MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn4search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Mangue MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn11search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Fleur de Sureau MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn1search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Menthe Verte TEISSEIRE",
+    "volume_ml": 600,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.92,
+    "source": "turn7search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Citron Vert TEISSEIRE",
+    "volume_ml": 600,
+    "price_eur": 3.25,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 5.42,
+    "source": "turn7search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Citron Zest EYGUEBELLE",
+    "volume_ml": 1000,
+    "price_eur": 3.99,
+    "eur_per_10ml": 0.04,
+    "eur_per_litre": 3.99,
+    "source": "turn2view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Cassis LA MAISON GUIOT",
+    "volume_ml": 700,
+    "price_eur": 3.46,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.94,
+    "source": "turn11search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Grenadine CARREFOUR CLASSIC (Zero sucre)",
+    "volume_ml": 750,
+    "price_eur": 2.59,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 3.45,
+    "source": "turn9view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Pulco Citron Concentré",
+    "volume_ml": 700,
+    "price_eur": 2.49,
+    "eur_per_10ml": 0.04,
+    "eur_per_litre": 3.56,
+    "source": "turn6view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Pulco Citron Vert & Menthe",
+    "volume_ml": 700,
+    "price_eur": 2.37,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 3.39,
+    "source": "turn5search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Tropicana Pur Jus Pomme",
+    "volume_ml": 1000,
+    "price_eur": 2.55,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 2.55,
+    "source": "turn10search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Jus Multifruits Tropicana Réveil Fruité",
+    "volume_ml": 1000,
+    "price_eur": 2.65,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 2.65,
+    "source": "turn10search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Tropicana Pur Jus Raisin",
+    "volume_ml": 1000,
+    "price_eur": 2.65,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 2.65,
+    "source": "turn10search6",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Carrefour Pur Jus Ananas",
+    "volume_ml": 1000,
+    "price_eur": 2.35,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 2.35,
+    "source": "turn4view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Pago Jus Pomme-Cassis",
+    "volume_ml": 750,
+    "price_eur": 3.74,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.99,
+    "source": "turn10search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Granini Jus Goyave",
+    "volume_ml": 1000,
+    "price_eur": 2.99,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 2.99,
+    "source": "turn0search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Granini Jus Orange-Passion",
+    "volume_ml": 1000,
+    "price_eur": 2.99,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 2.99,
+    "source": "turn0search4",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Canada Dry Ginger Ale",
+    "volume_ml": 1500,
+    "price_eur": 2.25,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 1.5,
+    "source": "turn12search1",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "7UP Citron-Citron Vert",
+    "volume_ml": 1500,
+    "price_eur": 1.24,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 0.83,
+    "source": "turn14view0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Schweppes Agrum'",
+    "volume_ml": 1500,
+    "price_eur": 2.92,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 1.95,
+    "source": "turn12search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Orangina",
+    "volume_ml": 1500,
+    "price_eur": 2.25,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 1.5,
+    "source": "turn13search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sprite (sans sucres)",
+    "volume_ml": 1250,
+    "price_eur": 1.56,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 1.25,
+    "source": "turn13search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Fever Tree Mediterranean Tonic 50cL",
+    "volume_ml": 500,
+    "price_eur": 3.25,
+    "eur_per_10ml": 0.07,
+    "eur_per_litre": 6.5,
+    "source": "turn12search6",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Fever Tree Ginger Ale 50cL",
+    "volume_ml": 500,
+    "price_eur": 3.25,
+    "eur_per_10ml": 0.07,
+    "eur_per_litre": 6.5,
+    "source": "turn12search3",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "San Pellegrino Eau Gazeuse 1L",
+    "volume_ml": 1000,
+    "price_eur": 0.99,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 0.99,
+    "source": "turn12search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Carrefour Eau de Coco 1L",
+    "volume_ml": 1000,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 2.95,
+    "source": "turn0search9",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Crème Fluide 30% Carrefour Classic'",
+    "volume_ml": 1000,
+    "price_eur": 4.49,
+    "eur_per_10ml": 0.04,
+    "eur_per_litre": 4.49,
+    "source": "turn15search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Lait Demi-Écrémé Carrefour",
+    "volume_ml": 1000,
+    "price_eur": 1.09,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 1.09,
+    "source": "turn16search1",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Fraise MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Kiwi MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Melon MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Hibiscus MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Rose MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Noisette MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Mojito Mint MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Rhum MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Chocolat MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Café MONIN",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Fraise TEISSEIRE",
+    "volume_ml": 600,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.92,
+    "source": "turn7search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Orgeat TEISSEIRE",
+    "volume_ml": 600,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.92,
+    "source": "turn7search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Mojito TEISSEIRE",
+    "volume_ml": 600,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.92,
+    "source": "turn7search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Grenadine TEISSEIRE",
+    "volume_ml": 600,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.92,
+    "source": "turn7search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Passion TEISSEIRE",
+    "volume_ml": 600,
+    "price_eur": 2.95,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.92,
+    "source": "turn7search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Purée de Passion CapFruit",
+    "volume_ml": 1000,
+    "price_eur": 7.9,
+    "eur_per_10ml": 0.08,
+    "eur_per_litre": 7.9,
+    "source": "turn10search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Purée de Banane CapFruit",
+    "volume_ml": 1000,
+    "price_eur": 7.9,
+    "eur_per_10ml": 0.08,
+    "eur_per_litre": 7.9,
+    "source": "turn10search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Purée de Fraise CapFruit",
+    "volume_ml": 1000,
+    "price_eur": 7.9,
+    "eur_per_10ml": 0.08,
+    "eur_per_litre": 7.9,
+    "source": "turn10search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Purée de Citron Jaune CapFruit",
+    "volume_ml": 1000,
+    "price_eur": 7.9,
+    "eur_per_10ml": 0.08,
+    "eur_per_litre": 7.9,
+    "source": "turn10search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Purée de Coco CapFruit",
+    "volume_ml": 1000,
+    "price_eur": 7.9,
+    "eur_per_10ml": 0.08,
+    "eur_per_litre": 7.9,
+    "source": "turn10search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Lait d'Amande Alpro",
+    "volume_ml": 1000,
+    "price_eur": 2.1,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 2.1,
+    "source": "turn16search1",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Lait d'Avoine Alpro",
+    "volume_ml": 1000,
+    "price_eur": 2.1,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 2.1,
+    "source": "turn16search1",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Lait de Coco Alpro",
+    "volume_ml": 1000,
+    "price_eur": 2.25,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 2.25,
+    "source": "turn16search1",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Boisson Soja Nature Carrefour Bio",
+    "volume_ml": 1000,
+    "price_eur": 1.65,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 1.65,
+    "source": "turn16search1",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Vita Coco Eau de Coco 1L",
+    "volume_ml": 1000,
+    "price_eur": 3.19,
+    "eur_per_10ml": 0.03,
+    "eur_per_litre": 3.19,
+    "source": "turn0search9",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Foco Eau de Coco 520ml",
+    "volume_ml": 520,
+    "price_eur": 1.95,
+    "eur_per_10ml": 0.04,
+    "eur_per_litre": 3.75,
+    "source": "turn0search9",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "San Pellegrino Bitter Rosso 10x10cl",
+    "volume_ml": 1000,
+    "price_eur": 4.9,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.9,
+    "source": "turn12search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "San Pellegrino Limonata 6x33cl",
+    "volume_ml": 1980,
+    "price_eur": 4.93,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 2.49,
+    "source": "turn12search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Red Bull Energy Drink 250ml",
+    "volume_ml": 250,
+    "price_eur": 2.49,
+    "eur_per_10ml": 0.1,
+    "eur_per_litre": 9.96,
+    "source": "turn12search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Red Bull Sugarfree 250ml",
+    "volume_ml": 250,
+    "price_eur": 2.49,
+    "eur_per_10ml": 0.1,
+    "eur_per_litre": 9.96,
+    "source": "turn12search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Fanta Orange 1,5L",
+    "volume_ml": 1500,
+    "price_eur": 1.25,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 0.83,
+    "source": "turn13search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Schweppes Ginger Beer 1L",
+    "volume_ml": 1000,
+    "price_eur": 1.99,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 1.99,
+    "source": "turn12search6",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Orangina Rouge 1,5L",
+    "volume_ml": 1500,
+    "price_eur": 2.49,
+    "eur_per_10ml": 0.02,
+    "eur_per_litre": 1.66,
+    "source": "turn13search7",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Carrefour Eau Tonique 1L",
+    "volume_ml": 1000,
+    "price_eur": 0.99,
+    "eur_per_10ml": 0.01,
+    "eur_per_litre": 0.99,
+    "source": "turn12search5",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Sirop Grenade MAISON GUIOT",
+    "volume_ml": 700,
+    "price_eur": 3.46,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.94,
+    "source": "turn11search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Pur Jus Citron Jaune Sicilia 200ml",
+    "volume_ml": 200,
+    "price_eur": 0.82,
+    "eur_per_10ml": 0.04,
+    "eur_per_litre": 4.1,
+    "source": "turn5search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Gomme syrup Routin 1883 100cl",
+    "volume_ml": 1000,
+    "price_eur": 6.9,
+    "eur_per_10ml": 0.07,
+    "eur_per_litre": 6.9,
+    "source": "turn11search0",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Falernum Monin 70cl",
+    "volume_ml": 700,
+    "price_eur": 5.95,
+    "eur_per_10ml": 0.09,
+    "eur_per_litre": 8.5,
+    "source": "turn0search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Orgeat MAISON GUIOT 70cl",
+    "volume_ml": 700,
+    "price_eur": 3.46,
+    "eur_per_10ml": 0.05,
+    "eur_per_litre": 4.94,
+    "source": "turn11search8",
+    "date": "2025-04-20"
+  },
+  {
+    "ingredient": "Crème Chantilly Spray Carrefour 500ml",
+    "volume_ml": 500,
+    "price_eur": 3.05,
+    "eur_per_10ml": 0.06,
+    "eur_per_litre": 6.1,
+    "source": "turn15search0",
+    "date": "2025-04-20"
+  }
+]

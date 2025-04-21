@@ -1,0 +1,162 @@
+/* Styles for the CocktailCard component */
+.card-galactic {
+  /* Base styles */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border-radius: 0.5rem;
+  background-color: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-link {
+  display: block;
+}
+
+.card-image-wrapper {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.card-image {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-image:hover {
+  transform: scale(1.1);
+}
+
+.card-badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: rgba(var(--cyan-rgb, 45, 212, 191), 0.9);
+  color: var(--dark, #1e293b);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+}
+
+.card-alcohol-degree {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  background-color: rgba(var(--dark-rgb, 30, 41, 59), 0.8);
+  backdrop-filter: blur(4px);
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.card-celestial-effect {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to top, rgba(var(--purple-rgb, 139, 92, 246), 0.3), transparent);
+  animation: pulse-opacity 3s infinite;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-family: var(--font-title);
+  color: white;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-rating {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.card-star-rating {
+  display: flex;
+  align-items: center;
+}
+
+.card-star-rating-value {
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+  color: white;
+}
+
+.card-origin {
+  font-size: 0.75rem;
+  color: var(--pink, #ec4899);
+  margin-bottom: 0.5rem;
+}
+
+.card-ingredients-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.card-ingredient-tag {
+  font-size: 0.75rem;
+  background-color: rgba(var(--nebula-rgb, 76, 29, 149), 0.6);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.2);
+}
+
+.card-ingredients-more {
+  font-size: 0.75rem;
+  color: white;
+}
+
+.icon-size-small {
+  width: 12px;
+  height: 12px;
+}
+
+.icon-size-normal {
+  width: 14px;
+  height: 14px;
+}
+
+/* Star rating color classes */
+.text-space-cyan {
+  color: var(--cyan, #2dd4bf);
+}
+
+.text-space-star {
+  color: white;
+}
+
+.text-space-dark {
+  color: var(--dark, #1e293b);
+}
+
+.text-space-pink {
+  color: var(--pink, #ec4899);
+}
+
+.text-space-nebula {
+  color: var(--nebula, #4c1d95);
+}
+
+/* Animation keyframes */
+@keyframes pulse-opacity {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

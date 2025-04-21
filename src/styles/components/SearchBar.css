@@ -1,0 +1,103 @@
+/* SearchBar styles */
+.search-bar-container {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border-radius: 9999px;
+  background-color: rgba(var(--background-rgb), 0.7);
+  color: var(--foreground);
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary);
+}
+
+.search-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primary);
+  color: white;
+  border-radius: 9999px;
+  padding: 0.75rem;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: var(--primary-light);
+}
+
+.search-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Autocomplete suggestion styles */
+.search-bar-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.suggestions-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 0.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 50;
+  background-color: rgba(var(--background-rgb), 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.3);
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.2),
+    0 0 8px rgba(var(--cyan-rgb, 45, 212, 191), 0.2),
+    inset 0 0 2px rgba(var(--pink-rgb, 236, 72, 153), 0.3);
+}
+
+.suggestion-item {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  color: var(--foreground);
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgba(var(--purple-rgb, 139, 92, 246), 0.1);
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover, .suggestion-item.highlighted {
+  background: linear-gradient(
+    90deg, 
+    rgba(var(--purple-rgb, 139, 92, 246), 0.1), 
+    rgba(var(--cyan-rgb, 45, 212, 191), 0.1)
+  );
+  color: var(--star, #f59e0b);
+}
+
+/* Scrollbar styling for suggestions */
+.suggestions-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.suggestions-container::-webkit-scrollbar-track {
+  background: rgba(var(--background-rgb), 0.3);
+}
+
+.suggestions-container::-webkit-scrollbar-thumb {
+  background: rgba(var(--purple-rgb, 139, 92, 246), 0.5);
+  border-radius: 3px;
+}
+
+.suggestions-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--cyan-rgb, 45, 212, 191), 0.7);
+}
