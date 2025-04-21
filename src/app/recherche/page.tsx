@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import SearchBar from '@/components/SearchBar';
@@ -29,7 +29,7 @@ const estimateCocktailPrice = (cocktail: Cocktail): number => {
   return Math.max(5, estimatedPrice); // Prix minimum de 5€
 };
 
-export default function RecherchePage() {
+function RecherchePageContent() {
   const [searchQuery, setSearchQuery] = useState('');
   const [allCocktails, setAllCocktails] = useState<Cocktail[]>([]);
   const [filteredCocktails, setFilteredCocktails] = useState<Cocktail[]>([]);
@@ -196,7 +196,7 @@ export default function RecherchePage() {
             ) : (
               <div className="cosmic-border rounded-lg p-8 bg-background/40 backdrop-blur-sm text-center">
                 <h3 className="text-xl mb-3">Aucun cocktail trouvé dans cette dimension</h3>
-                <p>Essayez de modifier vos critères de recherche pour explorer d{"\'"}autres galaxies de saveurs.</p>
+                <p>Essayez de modifier vos critères de recherche pour explorer d{"'"}autres galaxies de saveurs.</p>
               </div>
             )}
           </div>
@@ -209,5 +209,13 @@ export default function RecherchePage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function RecherchePage() {
+  return (
+    <Suspense fallback={<div>Chargement de la recherche...</div>}>
+      <RecherchePageContent />
+    </Suspense>
   );
 }
