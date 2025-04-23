@@ -84,7 +84,7 @@ export default function CocktailCard({
     <div 
       ref={cardRef}
       className="card-container"
-      style={{ height: '100%', minHeight: '490px' }}
+      style={{ height: '100%', minHeight: '400px' }}
     >
       <motion.div 
         className={`card-galactic flip-card-container ${isFlipped ? 'flipped' : ''}`}
